@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 
 
 export default function ParallaxBackground({
@@ -13,7 +13,6 @@ export default function ParallaxBackground({
   overlay?: string;
   children?: React.ReactNode;
 }) {
-  const { scrollYProgress } = useScroll(); // progresso do viewport inteiro
 
   const presetLayers = useMemo(
     () =>
