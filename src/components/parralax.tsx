@@ -30,8 +30,6 @@ export default function ParallaxBackground({
       {/* Fundo FIXED atrás de tudo (z-[-10]) */}
       <div className="fixed inset-0 -z-10 overflow-hidden">
         {presetLayers.map((layer, idx) => {
-          const speed = layer.speed ?? 0.3;
-          const y = useTransform(scrollYProgress, [0, 1], [0, speed * 300]); // 300px base
           return (
             <motion.div key={idx} className={`absolute inset-0 ${layer.className ?? ""}`}>
               {layer.type === "gradient" ? (
