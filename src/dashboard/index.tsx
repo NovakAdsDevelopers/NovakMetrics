@@ -14,7 +14,7 @@ export default function DashboardPage() {
 
       <div className="w-full px-36">
         <h1 className="text-3xl font-bold text-left mt-5">
-          Welcome Back, <span className="text-green-500">Valéria Ramos</span>
+          Welcome Back, <span className="text-green-500">Eduardo Ramos</span>
         </h1>
         <p className="text-left mt-4 text-gray-600">
           Welcome to the dashboard! Here you can find an overview of your
