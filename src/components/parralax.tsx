@@ -1,19 +1,7 @@
 import { useMemo } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-/**
- * ParallaxBackground (FULL BG)
- * - Fundo parallax de tela cheia com camadas FIXED (fica atrás de todo o conteúdo).
- * - O próximo conteúdo da página naturalmente "sobrepõe" o parallax ao rolar.
- * - Sem sticky/section complexa: usa `position: fixed` + um spacer do tamanho desejado.
- *
- * Props:
- *  - heightVh: altura de rolagem (ex.: 140 → a seção ocupa 140vh, mas o fundo fica visível só enquanto rola).
- *  - layers: [{ type: 'image'|'gradient', src: string, speed?: number, className?: string }]
- *            speed > 0 move para baixo; < 0 move para cima. Escala base 300px.
- *  - overlay: classes Tailwind para um overlay (ex.: "bg-emerald-900/30").
- *  - children: conteúdo central da hero (opcional).
- */
+
 export default function ParallaxBackground({
   heightVh = 80,
   layers,

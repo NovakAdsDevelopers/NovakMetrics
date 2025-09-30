@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Card } from "../components/ui/card";
 import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
@@ -16,7 +16,6 @@ import {
   endOfMonth,
   endOfWeek,
   format,
-  isAfter,
   isSameDay,
   isSameMonth,
   isToday,

@@ -1,4 +1,4 @@
-import { Award, Boxes, Goal, Users } from "lucide-react";
+import { Award, Boxes, Goal } from "lucide-react";
 import { ChartBarMixed } from "./chart";
 import { ChartBarInteractive } from "./chart-geral";
 import { ChartAreaGradient } from "./chart-line";

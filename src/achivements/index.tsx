@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import ParallaxBackground from "../components/parralax";
-import ParallaxFullScreen from "../components/parralax";
 import GridOverview from "./Metrics";
 import NovakTeam from '../assets/novak-team.jpg'
 
